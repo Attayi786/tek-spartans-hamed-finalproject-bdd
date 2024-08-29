@@ -31,7 +31,7 @@ public class CreateAccountSteps extends SeleniumUtility {
         selectFromDropDown(CreateAccountPageObject.GENDER_SELECT, "Male"); // Select "Male" from the gender dropdown
         selectFromDropDown(CreateAccountPageObject.MARITAL_STATUS_SELECT, "Single"); // Select "Married" from the marital status dropdown
         sendText(CreateAccountPageObject.EMPLOYMENT_STATUS, "Test Engineer"); // Enter employment status
-        sendText(CreateAccountPageObject.DATE_OF_BIRTH, "07/07/1992"); // Enter date of birth
+        sendText(CreateAccountPageObject.DATE_OF_BIRTH, "07/19/1992"); // Enter date of birth
     }
 
     @Then("click on Create Account button") // Cucumber step definition for clicking the 'Create Account' button
@@ -60,8 +60,8 @@ public class CreateAccountSteps extends SeleniumUtility {
     @When("when the user fill up sign up form") // Cucumber step definition for filling out the sign-up form
     public void whenTheUserFillUpSignUpForm() {
         sendText(CreateAccountPageObject.USERNAME_INPUT, "Hamed"); // Enter username
-        sendText(CreateAccountPageObject.PASSWORD_INPUT, "HamedA123$"); // Enter password
-        sendText(CreateAccountPageObject.CONFIRM_PASSWORD_INPUT, "HamedA123$"); // Enter password confirmation
+        sendText(CreateAccountPageObject.PASSWORD_INPUT, "Qwerty@1992"); // Enter password
+        sendText(CreateAccountPageObject.CONFIRM_PASSWORD_INPUT, "Qwerty@1992"); // Enter password confirmation
     }
 
     @Then("click on submit button") // Cucumber step definition for clicking the 'Submit' button
@@ -71,14 +71,14 @@ public class CreateAccountSteps extends SeleniumUtility {
 
     @Then("fill up create account form page") // Cucumber step definition for filling out the create account form on a page
     public void fillUpCreateAccountFormPage() {
-        sendText(CreateAccountPageObject.EMAIL_INPUT, "Hamed1992@gmail.com"); // Enter a specific email address into the email input field
+        sendText(CreateAccountPageObject.EMAIL_INPUT, "Hamed.Attayi@tekschool.us"); // Enter a specific email address into the email input field
         selectFromDropDown(CreateAccountPageObject.PREFIX_SELECT, "Mr."); // Select "Mr." from the prefix dropdown
         sendText(CreateAccountPageObject.FIRST_NAME_INPUT, "Hamed"); // Enter first name
         sendText(CreateAccountPageObject.LAST_NAME_INPUT, "A"); // Enter last name
         selectFromDropDown(CreateAccountPageObject.GENDER_SELECT, "Male"); // Select "Male" from the gender dropdown
         selectFromDropDown(CreateAccountPageObject.MARITAL_STATUS_SELECT, "Single"); // Select "Married" from the marital status dropdown
         sendText(CreateAccountPageObject.EMPLOYMENT_STATUS, "Test Engineer"); // Enter employment status
-        sendText(CreateAccountPageObject.DATE_OF_BIRTH, "07/07/1992"); // Enter date of birth
+        sendText(CreateAccountPageObject.DATE_OF_BIRTH, "07/19/1992"); // Enter date of birth
     }
 
     @When("validate account error message") // Cucumber step definition for validating the account error message
