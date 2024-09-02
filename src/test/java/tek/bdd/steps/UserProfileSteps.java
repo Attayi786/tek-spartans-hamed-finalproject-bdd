@@ -22,5 +22,7 @@ public class UserProfileSteps extends SeleniumUtility {
     @Then("click on logout button") // Cucumber step definition for clicking the logout button
     public void clickCnLogoutButton() {
         getElementText(UserProfilePageObject.LOGOUT_BUTTON); // Retrieves the text of the logout button element (this appears to be a mistake, should be clicking the button instead)
+
     }
 }
+

@@ -6,7 +6,6 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import tek.bdd.pages.AccountsPageObject;
 import tek.bdd.utilities.SeleniumUtility;
-
 import java.util.List; // Importing List class to handle collections of elements
 
 public class AccountsSteps extends SeleniumUtility {

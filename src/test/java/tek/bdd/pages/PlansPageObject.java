@@ -13,5 +13,4 @@ public class PlansPageObject extends SeleniumUtility {
 
     public static final By CREATE_DATE_IS_TODAY_DATE = By.xpath("(//td[@class='css-132p0l1'])[3]");
     public static final By EXPIRE_DATE_IS_AFTER_TODAY_DATE = By.xpath("(//td[@class='css-132p0l1'])[4]");
-
 }

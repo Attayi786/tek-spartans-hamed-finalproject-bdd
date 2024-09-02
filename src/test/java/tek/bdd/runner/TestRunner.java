@@ -5,8 +5,6 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
-
-
 // This annotation tells JUnit to run the tests using Cucumber
 @RunWith(Cucumber.class)
 @CucumberOptions(

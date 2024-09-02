@@ -11,7 +11,4 @@ public class LoginPageObject {
     public static final By SIGN_IN_BUTTON = By.xpath("//button[text()='Sign In']");
     public static final By VALIDATE_CUSTOMER_SERVICES_PORTAL = By.xpath("//h2[text()='Customer Service Portal']");
     public static final By ERROR_MESSAGE = By.xpath("//div[text()='ERROR']");
-
-
-
 }

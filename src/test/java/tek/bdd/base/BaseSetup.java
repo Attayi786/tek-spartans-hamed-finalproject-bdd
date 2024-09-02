@@ -84,7 +84,6 @@ public abstract class BaseSetup {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Constants.WAIT_IN_SECONDS));
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Constants.WAIT_IN_SECONDS));
     }
-
     /**
      * Closes the browser and cleans up the WebDriver instance.
      */
@@ -94,7 +93,6 @@ public abstract class BaseSetup {
             driver.quit();
         }
     }
-
     /**
      * Returns the current WebDriver instance.
      * @return WebDriver instance

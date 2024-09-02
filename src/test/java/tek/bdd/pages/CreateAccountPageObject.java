@@ -26,7 +26,4 @@ public class CreateAccountPageObject {
     public static final By SUBMIT_BUTTON = By.xpath("//button[text()='Submit']");
 
     public static final By ERROR_MESSAGE = By.xpath("//div[text()='ERROR']");
-
-
-
 }
