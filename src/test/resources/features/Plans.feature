@@ -14,7 +14,7 @@ Feature: Login with credential and validate Plans Page
     Then close browser
 
   @Scenario_2
-  Scenario:
+  Scenario: Validate The Times as Expected
     Then validate Create Date is today's date in EST Time zone
     Then validate Date Expire is a day after EST Time Zone
     Then close browser
