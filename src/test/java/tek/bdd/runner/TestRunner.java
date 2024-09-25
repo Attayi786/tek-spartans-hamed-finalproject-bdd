@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
 
         // Filters scenarios to only run those tagged with '@Smoke'.
         // Tags help you organize and run specific subsets of tests.
-        tags = "@Smoke",
+        tags = "@Regression",
 
         // When set to 'true', Cucumber will only check if step definitions are present, without running the tests.
         // Setting this to 'false' means that tests will be executed.
