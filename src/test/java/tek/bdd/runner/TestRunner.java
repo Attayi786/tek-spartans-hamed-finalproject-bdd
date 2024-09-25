@@ -39,7 +39,7 @@ import org.junit.runner.RunWith;
         // 'Pretty' outputs the test results in a readable format to the console.
         plugin = {
                 "html:target/cucumber-report/report.html",
-                "json:target/jsonReport/report.json", // jason report
+                "json:target/jsonReport/report.json", // jason plugin, cucumber report
                 "pretty"
         }
 )
